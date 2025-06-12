@@ -107,7 +107,7 @@ layers:
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB TOG
-  - RGB SAI
+  - RGB HUI
   - RGB EFF
   - RGB EFR
   - RGB SPI
