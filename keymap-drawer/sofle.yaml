@@ -106,8 +106,8 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
-  - RGB ON
+  - RGB TOG
+  - RGB SAI
   - RGB EFF
   - RGB EFR
   - RGB SPI
