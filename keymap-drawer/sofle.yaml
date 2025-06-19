@@ -56,13 +56,13 @@ layers:
   - $$mdi:volume-off$$
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:keyboard-return$$'}
+  - $$mdi:apple-keyboard-option$$
   - LGUI
   - {t: '$$mdi:keyboard-space$$', h: layer1}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: layer1}
   - RGUI
-  - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:keyboard-return$$'}
+  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:backspace-reverse-outline$$
   layer1:
@@ -121,13 +121,13 @@ layers:
   - $$mdi:play-pause$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:mouse-left-click-outline$$
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
