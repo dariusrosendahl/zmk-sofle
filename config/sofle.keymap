@@ -89,11 +89,11 @@
 &kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
 &kp CAPS    &hm_l LGUI A  &hm_l LALT S  &hm_l LCTRL D  &hm_l LSHFT F   &kp G        &kp LEFT_ARROW   &kp H      &hm_r RSHFT J  &hm_r RCTRL K  &hm_r RALT L     &hm_r RGUI SEMI  &kp APOS
 &kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp RSHFT
-&kp DELETE  &kp LCTRL  &alt_enter ENTER LALT  &kp LGUI  &spc_layer 1 SPACE   &kp C_MUTE   &kp ENTER        &spc_layer 1 SPACE  &kp RGUI  &alt_enter ENTER RALT      &kp RCTRL        &kp DELETE
+&kp DELETE  &kp LCTRL  &alt_enter ENTER LALT  &kp LGUI  &kp C_MUTE   &spc_layer 1 SPACE   &kp ENTER        &kp C_MUTE  &kp RGUI  &alt_enter ENTER RALT      &kp RCTRL        &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-            display-name = "LAYER0";
+            display-name = "LAYER0";   
         };
 
         layer_1 {
