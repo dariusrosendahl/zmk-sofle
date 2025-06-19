@@ -70,6 +70,16 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+
+        // Caps tap / Enter hold
+        caps_enter: caps_enter {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            tapping-term-ms = <250>;
+            quick-tap-ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
     };
 
     scroll_encoder: scroll_encoder {
@@ -86,8 +96,8 @@
         layer0 {
             bindings = <
 &kp ESC     &kp N1     &kp N2        &kp N3        &kp N4  &kp N5       &kp UP_ARROW     &kp N6     &kp N7     &kp N8     &kp N9           &kp N0      &kp BACKSPACE
-&kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp BSLH
-&kp CAPS    &hm_l LGUI A  &hm_l LALT S  &hm_l LCTRL D  &hm_l LSHFT F   &kp G        &kp LEFT_ARROW   &kp H      &hm_r RSHFT J  &hm_r RCTRL K  &hm_r RALT L     &hm_r RGUI SEMI  &kp APOS
+&kp TAB     &kp Q      &kp W         &kp E         &kp R   &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I      &kp O            &kp P       &kp MINUS
+&caps_enter ENTER CAPS    &hm_l LGUI A  &hm_l LALT S  &hm_l LCTRL D  &hm_l LSHFT F   &kp G        &kp LEFT_ARROW   &kp H      &hm_r RSHFT J  &hm_r RCTRL K  &hm_r RALT L     &hm_r RGUI SEMI  &kp APOS
 &kp LSHFT   &kp Z      &kp X         &kp C         &kp V   &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA  &kp DOT          &kp FSLH    &kp RSHFT
 &kp C_MUTE  &kp DELETE  &kp LCTRL  &alt_enter ENTER LALT  &kp LGUI   &spc_layer 1 SPACE   &kp ENTER        &spc_layer 1 SPACE  &kp RGUI  &alt_enter ENTER RALT      &kp RCTRL        &kp DELETE
             >;
@@ -101,7 +111,7 @@
 &kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &kp DELETE
 &trans      &kp GRAVE        &mkp LCLK       &kp UP_ARROW     &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
 &trans      &kp TILDE        &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW  &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &kp LBKT         &kp RBKT        &kp LBRC         &kp RBRC         &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
+&trans      &kp LBKT         &kp RBKT        &kp LBRC         &kp RBRC         &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp BSLH          &trans
 &kp C_MUTE  &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
