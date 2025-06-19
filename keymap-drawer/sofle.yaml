@@ -60,7 +60,7 @@ layers:
   - LGUI
   - {t: '$$mdi:keyboard-space$$', h: layer1}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:keyboard-space$$', h: layer1}
   - RGUI
   - {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:keyboard-return$$'}
   - $$mdi:apple-keyboard-control$$
@@ -125,7 +125,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
