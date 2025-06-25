@@ -27,7 +27,7 @@ layers:
   - O
   - P
   - {t: '-', s: _}
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-caps$$'}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '2'}
   - {t: A, h: LGUI}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
@@ -157,7 +157,7 @@ layers:
   - F12
   - _
   - +
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - OUT USB
   - OUT BLE
   - {t: '$$mdi:transfer$$', type: trans}
