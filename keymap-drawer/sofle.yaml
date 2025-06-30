@@ -75,8 +75,8 @@ layers:
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - HOME
   - F7
-  - F8
-  - F9
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - F10
   - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -140,8 +140,8 @@ layers:
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
   - F7
-  - F8
-  - F9
+  - '{'
+  - '}'
   - F10
   - {t: '$$mdi:transfer$$', type: trans}
   - '&studio_unlock'
