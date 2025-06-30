@@ -116,7 +116,7 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp HOME         &mmv MOVE_UP     &kp HOME         &kp F7           &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &kp F10           &kp DELETE
+&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp HOME         &mmv MOVE_UP     &kp HOME         &kp F7           &kp F8           &kp LEFT_BRACKET     &kp RIGHT_BRACKET     &kp DELETE
 &trans      &kp GRAVE        &kp LA(LEFT)    &kp UP_ARROW     &kp LA(RIGHT)    &kp PG_UP        &mmv MOVE_DOWN   &kp PG_UP        &kp LA(LEFT)     &kp UP      &kp LA(RIGHT)   &kp MINUS         &kp EQUAL
 &trans      &kp TILDE        &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp PG_DN        &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &trans      &kp LBKT         &kp RBKT        &kp LBRC         &kp RBRC         &kp END          &mmv MOVE_RIGHT  &kp END          &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp BSLH          &trans
@@ -129,7 +129,7 @@
 
         layer_2 {
             bindings = <
-&kp TILDE       &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7  &kp LBRC      &kp RBRC     &kp F10      &trans
+&kp TILDE       &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &mmv MOVE_UP     &kp F6  &kp F7  &kp F8      &kp LBRC      &kp RBRC     &trans
 &studio_unlock  &bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans          &mmv MOVE_DOWN   &trans  &trans  &kp F11     &kp F12    &kp UNDER    &kp PLUS
 &trans          &out OUT_USB  &out OUT_BLE    &trans        &trans        &trans          &mmv MOVE_LEFT   &trans  &trans  &trans      &trans     &kp LBRC     &kp RBRC
 &trans          &rgb_ug RGB_EFR   &rgb_ug RGB_EFF &rgb_ug RGB_HUD &rgb_ug RGB_HUI &trans          &mmv MOVE_RIGHT  &trans  &trans  &sys_reset  &soft_off  &bootloader  &trans
