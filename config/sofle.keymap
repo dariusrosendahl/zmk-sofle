@@ -96,6 +96,14 @@
         tap-ms = <30>;
     };
 
+    media_encoder: media_encoder {
+        compatible = "zmk,behavior-sensor-rotate";
+        #sensor-binding-cells = <0>;
+        bindings = <&kp C_PREV>, <&kp C_NEXT>;
+
+        tap-ms = <30>;
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -122,7 +130,7 @@
             >;
 
             display-name = "layer1";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&media_encoder>;
         };
 
         layer_2 {
@@ -134,7 +142,7 @@
 &trans          &trans        &trans          &trans        &trans        &trans          &mkp LCLK        &trans  &trans  &trans      &trans     &trans
             >;
 
-            sensor-bindings = <&rgb_brightness_encoder>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_3 {
