@@ -66,3 +66,4 @@ This configuration uses a custom ZMK branch with pointer/mouse support:
 - Bluetooth pairing/clearing functions are on Layer 2  
 - The configuration supports rotary encoder for volume/scroll/RGB brightness
 - Home row mods use "tap-preferred" flavor with 250ms tapping term for better reliability
+- always pull with rebase first before committing and pushing
