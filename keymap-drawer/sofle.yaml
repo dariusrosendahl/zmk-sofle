@@ -63,8 +63,8 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: layer1}
   - RGUI
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:backspace-reverse-outline$$
+  - $$mdi:apple-keyboard-control$$
   layer1:
   - {t: '`', s: '~'}
   - F1
